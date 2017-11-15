@@ -25,7 +25,7 @@ var multiReplaceAll = require('multi-replaceall'),
 		}
 	];
 
-var mst = multiStringReplace(str,replacementList);
+var mst = multiReplaceAll(str,replacementList);
 
 console.log(mst); // The quick yellow bird jumps over the lazy dog. The quick yellow bird. 
 ```
