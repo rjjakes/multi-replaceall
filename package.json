@@ -1,0 +1,23 @@
+{
+  "name": "multi-replaceall",
+  "version": "0.0.1",
+  "description": "Combines the functionality from replaceall and multi-string-replace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjjakes/multi-replaceall.git"
+  },
+  "keywords": [
+    "string",
+    "replace"
+  ],
+  "author": "https://github.com/rjjakes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjjakes/multi-replaceall/issues"
+  },
+  "homepage": "https://github.com/rjjakes/multi-replaceall#readme"
+}
