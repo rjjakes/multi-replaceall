@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/rjjakes/multi-replaceall/issues"
   },
-  "homepage": "https://github.com/rjjakes/multi-replaceall#readme"
+  "homepage": "https://github.com/rjjakes/multi-replaceall#readme",
+  "dependencies": {
+    "replaceall": "^0.1.6"
+  }
 }
