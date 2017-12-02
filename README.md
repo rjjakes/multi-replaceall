@@ -12,7 +12,7 @@ npm install multi-replaceall --save
 or.
 
 ```
-yarn multi-replaceall --save
+yarn add multi-replaceall
 ```
 
 ## Usage 
