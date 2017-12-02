@@ -2,9 +2,10 @@
   "name": "multi-replaceall",
   "version": "1.0.0",
   "description": "Combines the functionality from replaceall and multi-string-replace",
-  "main": "distribution/index.js",
+  "main": "./distribution/index.js",
   "scripts": {
     "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
+    "prepublish": "yarn run build",
     "test": "node distribution/test.js"
   },
   "repository": {
