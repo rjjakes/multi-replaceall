@@ -1,4 +1,4 @@
-var multiReplaceAll = require('multi-replaceall'),
+let multiReplaceAll = require('./index.js'),
     str = 'The quick brown fox jumps over the lazy dog. The quick brown fox.',
     replacementList = [
         {
@@ -11,6 +11,6 @@ var multiReplaceAll = require('multi-replaceall'),
         }
     ];
 
-var mst = multiReplaceAll(str,replacementList);
+let mst = multiReplaceAll(str,replacementList);
 
 console.log(mst); // The quick yellow bird jumps over the lazy dog. The quick yellow bird.

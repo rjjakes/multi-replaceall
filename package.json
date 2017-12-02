@@ -1,6 +1,6 @@
 {
   "name": "multi-replaceall",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Combines the functionality from replaceall and multi-string-replace",
   "main": "index.js",
   "scripts": {

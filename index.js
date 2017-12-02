@@ -1,8 +1,8 @@
-var replaceall = require('replaceall');
+let replaceall = require('replaceall');
 
 /**
- * An almost exact clone of npmjs.com/package/multi-string-replace but using
- * npmjs.com/package/replaceall to do the work.
+ * An ES6 version of npmjs.com/package/multi-string-replace but using
+ * npmjs.com/package/replaceall to do the string replacement work.
  *
  * @param str
  * @param replacementList
@@ -10,8 +10,7 @@ var replaceall = require('replaceall');
  */
 module.exports = function (str, replacementList) {
     if (Array.isArray(replacementList)) {
-        for (var i = 0; i < replacementList.length; i++) {
-            var obj = replacementList[i];
+        for (let obj of replacementList) {
             if (typeof obj === 'object' && obj.substr && obj.to) {
                 str = replaceall(obj.substr, obj.to, str);
             }
